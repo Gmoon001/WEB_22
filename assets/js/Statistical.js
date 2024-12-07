@@ -115,7 +115,7 @@ function openStatistical() {
         <div class="Statistical-PRODUCT-TYPE">LOẠI</div>
         <div class="Statistical-PRODUCT-NAME">SẢN PHẨM</div>
         <div class="Statistical-PRICE">GIÁ</div>
-        <div class="QUALITY">SỐ LƯỢNG</div>
+         <div class="QUALITY">CHI TIẾT</div>
         <div class="TOTAL">TỔNG</div>
       </div>
 
@@ -124,7 +124,8 @@ function openStatistical() {
         <div class="Statistical-PRODUCT-TYPE">keyboard</div>
         <div class="Statistical-PRODUCT-NAME">Bàn Phím Cơ không dây mini Đa kết nối RF84 White Gaming cho máy tính</div>
         <div class="Statistical-PRICE">870000 đ</div>
-        <div class="QUALITY">1</div>
+       <div class="QUALITY" onclick="renderDetailsOrder(1)">
+      <i class="fa-solid fa-circle-info"></i> </div>
         <div class="TOTAL">870000 đ</div>
       </div>
       <div class="Statistical-item">
@@ -132,7 +133,8 @@ function openStatistical() {
         <div class="Statistical-PRODUCT-TYPE">mouse</div>
         <div class="Statistical-PRODUCT-NAME">Chuột Gaming không dây</div>
         <div class="Statistical-PRICE">125000 đ</div>
-        <div class="QUALITY">1</div>
+        <div class="QUALITY" onclick="renderDetailsOrder(1)">
+      <i class="fa-solid fa-circle-info"></i> </div>
         <div class="TOTAL">125000 đ</div>
       </div>
 
