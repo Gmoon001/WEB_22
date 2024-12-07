@@ -263,7 +263,7 @@ function openOrderManageTable()
   <form class="date-filter" onsubmit="filterOrder(event)">
   <div>
   <label for="date" class="date-start">TỪ NGÀY</label>
-  <input type="date" class="date-start-input" value="2024-01-01">
+  <input type="date" class="date-start-input" value="2024-01-01"></br>
   <label for="date" class="date-end">ĐẾN NGÀY</label>
   <input type="date" class="date-end-input" value="2024-12-31">
   </div>
