@@ -409,10 +409,15 @@ function renderOrder(orderArray) {
     <div class="order-userid">1</div>
     <div class="order-date">12:56 11/11/2024</div>
     <div class="total-price">995.000 ₫</div>
-    <label for="order-status" class="order-status" style="color:green">
-      Đã xác nhận
-      <input type="checkbox" checked class="status" onclick="processOrder(1)"> 
-    </label>
+    <label for="order-status" class="order-status">
+
+  <select id="order-status" class="status" onchange="processOrder(this.value)" style="color:green">
+    <option value="0" style="color:gray">Chưa xử lý</option>
+    <option value="1" style="color:green" selected>Đã xác nhận</option>
+    <option value="2" style="color:red">Đã hủy</option>
+    <option value="3" style="color:blue">Đã thành công</option>
+  </select>
+</label>
     <div class="order-product" onclick="renderDetailsOrder(1);showOrderDetails()">
       <i class="fa-solid fa-circle-info"></i>
     </div>
@@ -423,10 +428,15 @@ function renderOrder(orderArray) {
     <div class="order-userid">2</div>
     <div class="order-date">13:20 12/11/2024</div>
     <div class="total-price">1.295.000 ₫</div>
-    <label for="order-status" class="order-status" style="color:red">
-      Chưa xử lí
-      <input type="checkbox" class="status" onclick="processOrder(2)"> 
-    </label>
+     <label for="order-status" class="order-status">
+
+  <select id="order-status" class="status" onchange="processOrder(this.value)" style="color:green">
+    <option value="0" style="color:gray">Chưa xử lý</option>
+    <option value="1" style="color:green" selected>Đã xác nhận</option>
+    <option value="2" style="color:red">Đã hủy</option>
+    <option value="3" style="color:blue">Đã thành công</option>
+  </select>
+</label>
     <div class="order-product" onclick="renderDetailsOrder(2);showOrderDetails()">
       <i class="fa-solid fa-circle-info"></i>
     </div>
