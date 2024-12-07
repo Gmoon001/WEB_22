@@ -468,3 +468,35 @@
     cursor: pointer;
 
 }
+
+.date-filter {
+    font-size: 16px; /* Đặt cỡ chữ cho toàn bộ form */
+  }
+  
+  .date-filter label {
+    margin-right: 10px;
+  }
+  
+  .date-filter input,
+  .date-filter select {
+    font-size: 16px; /* Cỡ chữ cho các ô input và select */
+    padding: 5px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    font-size: 16px; /* Cỡ chữ cho nút */
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
