@@ -68,6 +68,10 @@ function fdk() {
               <input type="text" class="form-input" placeholder="E-mail" id="form-Email">
           </div>
           <div id="error-email" class="check-error"></div>
+            <div class="form-email">
+              <input type="text" class="form-input" placeholder="Địa chỉ" id="form-Email">
+          </div>
+          <div id="error-email" class="check-error"></div>
           <div onclick="createAcc()">
               <a class="form-submit">
                   <span class="form-submit-text">Đăng ký</span>             
