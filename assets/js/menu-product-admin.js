@@ -251,7 +251,13 @@ function closeDeleteProductTable(event)
 function openOrderManageTable()
 {
   containerContentAdmin.innerHTML =
+
+
+  
   `
+
+
+
   <div class="title">DANH SÁCH ĐƠN HÀNG</div>
   
   <form class="date-filter" onsubmit="filterOrder(event)">
@@ -262,6 +268,29 @@ function openOrderManageTable()
   <input type="date" class="date-end-input" value="2024-12-31">
   </div>
   
+<div>
+ 
+    <label for="district" class="district-label">QUẬN</label>
+    <select id="district" class="district-select">
+      <option value="">Chọn quận</option>
+      <option value="quan1">Quận 1</option>
+      <option value="quan2">Quận 2</option>
+      <option value="quan3">Quận 3</option>
+      <!-- Thêm các quận khác nếu cần -->
+    </select> 
+
+    <label for="city" class="city-label">THÀNH PHỐ</label>
+    <select id="city" class="city-select">
+      <option value="">Chọn thành phố</option>
+      <option value="hcm">Hồ Chí Minh</option>
+      <option value="hn">Hà Nội</option>
+      <option value="dn">Đà Nẵng</option>
+      <!-- Thêm các thành phố khác nếu cần -->
+    </select>
+    <label for="address" class="address-label">ĐỊA CHỈ</label>
+    <input type="text" id="address" class="address-input" placeholder="Nhập địa chỉ">
+  </div>
+
   <div class="filter-container">
     <label for="order-status">Lọc theo trạng thái:</label>
     <select id="order-status" class="filter-select">
