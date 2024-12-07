@@ -36,7 +36,7 @@ function renderDetailsOrder(idCurrentOrderForm) {
     <div class="iconClose" onclick="hideOrderDetails()">
       <i class="fa-solid fa-xmark"></i>
     </div>
-    <div class="orderDetailContainer-content-date">Ngày đặt hàng: 12:56 11/11/2024</div>
+    <div class="orderDetailContainer-content-date">Ngày đặt hàng: 12:56 11/11/2024   </br>    Địa chỉ: 273 An Dương Vương</div>
     <div class="orderDetailContainer-content-list-products">
       <div class="orderDetailContainer-content-product">
         <div class="view-order-container-bottom-product-img">
